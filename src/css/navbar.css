@@ -38,9 +38,3 @@
 .card-image img:hover{
     transform: scale(1.25) rotate(3deg);
 }
-
-@media only screen and (max-width: 600px) {
-    .custom-container{
-        padding: 10px;
-    }
-  }
