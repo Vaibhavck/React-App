@@ -1,0 +1,46 @@
+/* body{
+    background: rgb(65, 61, 61);
+} */
+
+.cardlink{
+    color: black;
+}
+
+.nav-wraper div ul li a:hover{
+    background: grey;
+}
+
+.nav-wraper div ul li input{
+    color: white;
+}
+
+.sidenav-trigger{
+    cursor: pointer;
+}
+
+.custom-container{
+    padding: 100px;
+}
+
+.card{
+    overflow: hidden;
+}
+
+.card-content{
+    margin-top: 10px;
+}
+
+.card-image img {
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+}
+
+.card-image img:hover{
+    transform: scale(1.25) rotate(3deg);
+}
+
+@media only screen and (max-width: 600px) {
+    .custom-container{
+        padding: 10px;
+    }
+  }
